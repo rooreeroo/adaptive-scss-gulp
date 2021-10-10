@@ -34,7 +34,7 @@ $screen-md-max: 991px;
 $screen-lg-max: 1199px;
 // /variables
 
-// common
+// Common
 * {
     box-sizing: border-box;
 }
@@ -102,7 +102,7 @@ body {
     }
 }
 
-// /common
+// /Common
 
 // header
 .section-header {
@@ -180,6 +180,7 @@ body {
                     transition: .2s;
 
                     &::placeholder {
+
                         color: $color-white;
                     }
                     &:focus {
