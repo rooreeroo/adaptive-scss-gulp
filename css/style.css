@@ -503,7 +503,7 @@ body {
   width: 100%;
   transition: 0.2s;
 }
-.section-header-wrapper__form-input input ::placeholder {
+.section-header-wrapper__form-input input::placeholder {
   color: #fff;
 }
 .section-header-wrapper__form-input input:focus {

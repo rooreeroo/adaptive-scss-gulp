@@ -179,7 +179,7 @@ body {
                     width: 100%;
                     transition: .2s;
 
-                    ::placeholder {
+                    &::placeholder {
                         color: $color-white;
                     }
                     &:focus {
