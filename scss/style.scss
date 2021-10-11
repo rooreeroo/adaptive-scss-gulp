@@ -150,15 +150,13 @@ body {
         }
         &__title{
             font-weight: bold;
-            font-size: 56px;
-            line-height: 60px;
+            
             margin-bottom: 16px;
         }
         &__subtitle{
             @include font-secondary;
             font-size: 18px;
             line-height: 32px;
-            width: 65%;
             margin: 0 auto 44px;
         }
         &__form{
@@ -192,16 +190,36 @@ body {
                 flex-direction: column;
                 &-input {
                     margin-bottom: 10px;
+                    width: 100%;
                 }
                 &-button {
                     
                     flex: 1;
+                    text-align: center;
                 }
             }
             @media (min-width: $screen-sm) {
                 &-input {
                     margin-right: 40px;
                 }
+            }
+        }
+        @media (max-width: $screen-xs-max) {
+            &__title {
+                font-size: 30px;
+                line-height: 45px;
+            }
+            &__subtitle {
+                width: 90%;
+            }
+        }
+        @media (min-width: $screen-sm) {
+            &__title {
+                font-size: 56px;
+                line-height: 60px;
+            }
+            &__subtitle {
+                width: 65%;
             }
         }
     }

@@ -315,15 +315,12 @@ body {
 }
 .section-header-wrapper__title {
   font-weight: bold;
-  font-size: 56px;
-  line-height: 60px;
   margin-bottom: 16px;
 }
 .section-header-wrapper__subtitle {
   font-family: "Montserrat", sans-serif;
   font-size: 18px;
   line-height: 32px;
-  width: 65%;
   margin: 0 auto 44px;
 }
 .section-header-wrapper__form {
@@ -357,14 +354,34 @@ body {
   }
   .section-header-wrapper__form-input {
     margin-bottom: 10px;
+    width: 100%;
   }
   .section-header-wrapper__form-button {
     flex: 1;
+    text-align: center;
   }
 }
 @media (min-width: 576px) {
   .section-header-wrapper__form-input {
     margin-right: 40px;
+  }
+}
+@media (max-width: 575px) {
+  .section-header-wrapper__title {
+    font-size: 30px;
+    line-height: 45px;
+  }
+  .section-header-wrapper__subtitle {
+    width: 90%;
+  }
+}
+@media (min-width: 576px) {
+  .section-header-wrapper__title {
+    font-size: 56px;
+    line-height: 60px;
+  }
+  .section-header-wrapper__subtitle {
+    width: 65%;
   }
 }
 
