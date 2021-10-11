@@ -361,9 +361,6 @@ body {
   .section-header-wrapper__form-button {
     flex: 1;
   }
-  .section-header-wrapper__form-button .btn-main {
-    width: 100%;
-  }
 }
 @media (min-width: 576px) {
   .section-header-wrapper__form-input {
